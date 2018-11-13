@@ -47,10 +47,9 @@ h1 {
   grid-template-columns: repeat(10, 1fr);
   border: 1px solid black;
   grid-gap: 10px;
-
 }
 
-/* MAIN STYLES
+/* 4. MAIN STYLES
 ======================================== */
 
 header {
@@ -59,6 +58,12 @@ header {
   grid-column: 1 / -1;
   grid-row: span 15;
   text-align: center;
+}
+
+header button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
 }
 
 .sign-in-box {
@@ -74,7 +79,8 @@ header {
   text-align: center;
 }
 
-/* Form */
+/* 5. Form
+======================================== */
 
 #myDemo {
   display: none;
@@ -92,7 +98,7 @@ form {
 }
 
 form:hover {
-  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.20), 0 1px 12px 1px rgba(0, 0, 0, 0.39);
+  box-shadow: 0 1px 10px 1px rgba(30,144,255, 0.20), 0 1px 12px 1px rgba(30,144,255, 0.39);
 }
 
 form div + div {
